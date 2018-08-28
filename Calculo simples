@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Calculo_simples
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string c1 = Console.ReadLine();
+            int C1 = Convert.ToInt32(c1);
+
+            string u1 = Console.ReadLine();
+            int U1 = Convert.ToInt32(u1);
+
+            string v1 = Console.ReadLine();
+            v1 = v1.Replace(",", "");
+            v1 = v1.Replace(".", ",");
+            double V1 = Convert.ToDouble(v1);
+
+            string c2 = Console.ReadLine();
+            int C2 = Convert.ToInt32(c2);
+
+            string u2 = Console.ReadLine();
+            int U2 = Convert.ToInt32(u2);
+
+            string v2 = Console.ReadLine();
+            v2 = v2.Replace(",", "");
+            v2 = v2.Replace(".", ",");
+            double V2 = Convert.ToDouble(v2);
+
+            double t1 = U1 * V1;
+            double t2 = U2 * V2;
+           
