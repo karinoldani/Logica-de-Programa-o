@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Soma_Simples
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string AS = Console.ReadLine();
+            string BS = Console.ReadLine();
+
+            int A = Convert.ToInt32(AS);
+            int B = Convert.ToInt32(BS);
+
+            int SOMA = A + B;
+
+            Console.WriteLine("SOMA = " + SOMA);
+            Console.ReadKey();
+
+        }
+    }
+}
