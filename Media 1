@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Média_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            string na = Console.ReadLine();
+            double dA = Convert.ToDouble(na);
+            
+
+            string nb = Console.ReadLine();
+            double dB = Convert.ToDouble(nb);
+
+            double A = (dA / 11) * 3.5;
+            double B = (dB / 11) * 7.5;
+
+           
+            double media = A + B;
+            
+
+            
+            string MEDIA = Convert.ToDouble(media).ToString("0.00000");
+
+            Console.WriteLine("MEDIA = " + MEDIA);
+            Console.ReadKey();
+        }
+    }
+}
