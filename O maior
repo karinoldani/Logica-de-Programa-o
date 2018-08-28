@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace O_Maior
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string a = Console.ReadLine();
+            int A = Convert.ToInt32(a);
+
+            string b = Console.ReadLine();
+            int B = Convert.ToInt32(b);
+
+            string c = Console.ReadLine();
+            int C = Convert.ToInt32(c);
+
+            if(A > B && A > C)
+            {
+                Console.WriteLine(A + " eh o maior");
+            }if(B > A && B > C)
+            {
+                Console.WriteLine(B + " eh o maior");
+            }
+            if (C > A && C > B)
+            {
+                Console.WriteLine(C + " eh o maior");
+            }
+
+            Console.ReadKey();
+        }
+    }
+}
