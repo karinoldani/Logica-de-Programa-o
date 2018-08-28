@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Diferença
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           string a =  Console.ReadLine();
+           int A = Convert.ToInt32(a);
+
+           string b = Console.ReadLine();
+           int B = Convert.ToInt32(b);
+
+           string c = Console.ReadLine();
+           int C = Convert.ToInt32(c);
+
+           string d = Console.ReadLine();
+           int D = Convert.ToInt32(d);
+
+            int d1 = A * B;
+            int d2 = C * D;
+
+            int DIFERENCA = d1 - d2;
+
+            Console.WriteLine("DIFERENCA = " + DIFERENCA);
+            Console.ReadKey();
+
+        }
+    }
+}
