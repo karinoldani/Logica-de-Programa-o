@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Área_do_Círculo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           
+            string i = Console.ReadLine();
+            double r  = Convert.ToDouble(i);
+
+            double n = 3.14159;
+            double raio = r * r;
+
+            double area = n * raio;
+
+            string areaT = Convert.ToDouble(area).ToString("0.0000");
+            Console.WriteLine("A=" + areaT);
+            Console.ReadKey();
+
+
+        }
+    }
+}
