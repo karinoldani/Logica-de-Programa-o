@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Esfera
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string r = Console.ReadLine();
+            double R = Convert.ToDouble(r);
+
+            double dividendo = 4 / 3.0;
+            double raio = R * R * R;
+            double pi = 3.14159;
+
+            double valorEsfera = dividendo * pi * raio;
+            string VALOR = Convert.ToDouble(valorEsfera).ToString("0.000");
+
+            Console.WriteLine("VOLUME = " + VALOR);
+            Console.ReadKey();
+        }
+    }
+}
