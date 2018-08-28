@@ -1,0 +1,39 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Média_2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string nA = Console.ReadLine();
+            double NA = Convert.ToDouble(nA);
+
+            string nB = Console.ReadLine();
+            double NB = Convert.ToDouble(nB);
+
+            string nC = Console.ReadLine();
+            double NC = Convert.ToDouble(nC);
+
+            
+
+            double A = (NA / 10) * 2;
+            double B = (NB / 10) * 3;
+            double C = (NC / 10) * 5;
+
+
+            double media = A + B + C;
+
+            string MEDIA = Convert.ToDouble(media).ToString("0.0");
+
+            Console.WriteLine("MEDIA = " + MEDIA);
+            Console.ReadKey();
+
+           
+
+
+        }
