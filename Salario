@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Salário
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string num = Console.ReadLine();
+            int Num = Convert.ToInt32(num);
+
+            string horas = Console.ReadLine();
+            double Horas = Convert.ToDouble(horas);
+
+            string vlHora = Console.ReadLine();
+            double VlHora = Convert.ToDouble(vlHora);
+
+            double Salario = VlHora * Horas;
+            string SALARIO = Convert.ToDouble(Salario).ToString("0.00");
+
+            Console.WriteLine("NUMBER = " + Num);
+            Console.WriteLine("SALARY = U$ " + SALARIO);
+            Console.ReadKey();
+
+        }
+    }
+}
