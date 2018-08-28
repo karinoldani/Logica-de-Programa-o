@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Salario_com__Bonus
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string n = Console.ReadLine();
+            
+
+            string s = Console.ReadLine();
+            double S = Convert.ToDouble(s);
+
+            string v = Console.ReadLine();
+            double V = Convert.ToDouble(v);
+
+
+
+            double C = V * 0.15;
+            double SM = C + S;
+           
+
+            string SAL = Convert.ToDouble(SM).ToString("0.00");
+
+            Console.WriteLine("TOTAL = R$ " + SAL);
+            Console.ReadKey();
+
+        }
+    }
+}
